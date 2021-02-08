@@ -4,7 +4,4 @@
 #
 #    pip-compile
 #
-opencv-python==4.5.1.48
-matplotlib==3.2.1
-numpy==1.18.5
-
+Pillow==8.1.0
