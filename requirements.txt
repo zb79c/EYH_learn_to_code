@@ -1,5 +1,3 @@
-.github
-debug_this_spell.ipynb
-potion.jpg
-run_test.py
-ANSWER_KEY_debug_this_spell.ipynb
+cv2
+numpy
+matplotlib
