@@ -8,7 +8,5 @@ def debug(cauldron):
 		image.show()
 		# open method used to open different extension image file 
 		print("You did it! Great job finding all of the bugs!")
-	  
-  
-  	else:
+	else:
 		print("This spell still has bugs. Try to find some more!")
