@@ -1,7 +1,7 @@
 # contains unit test functions for each module
 
 def debug(cauldron):
-	from PIL import Image
+	from Pillow import Image
 	
 	if cauldron == 23:
 		image = Image.open('potion.jpg')

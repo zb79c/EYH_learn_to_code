@@ -4,4 +4,4 @@
 #
 #    pip-compile
 #
-PIL==6.2.0
+Pillow==8.1.0
