@@ -1,11 +1,14 @@
 # contains unit test functions for each module
 
 def debug(cauldron):
-	from Pillow import Image
+	import matplotlib.pyplot as plt
+	import matplotlib.image as image
 	
 	if cauldron == 23:
-		image = Image.open('potion.jpg')
-		image.show()
+		img = image.imread('potion.jpg')
+		imgplot = plt.imshow(img)
+		plt.axis('off')
+		plt.show()
 		# open method used to open different extension image file 
 		print("You did it! Great job finding all of the bugs!")
 	else:

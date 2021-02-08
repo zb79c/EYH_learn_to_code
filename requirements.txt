@@ -4,4 +4,4 @@
 #
 #    pip-compile
 #
-Pillow==8.1.0
+matplotlib==3.1.1
