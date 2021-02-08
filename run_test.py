@@ -5,7 +5,7 @@ def debug(cauldron):
 	import matplotlib.image as image
 	
 	if cauldron == 23:
-		img = image.imread('potion.jpg')
+		img = image.imread('potion.png')
 		imgplot = plt.imshow(img)
 		plt.axis('off')
 		plt.show()
