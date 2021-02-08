@@ -9,7 +9,7 @@ def debug(cauldron):
 		imgplot = plt.imshow(img)
 		plt.axis('off')
 		plt.show()
-		# open method used to open different extension image file 
+
 		print("You did it! Great job finding all of the bugs!")
 	else:
 		print("This spell still has bugs. Try to find some more!")
