@@ -1,16 +1,14 @@
 # contains unit test functions for each module
 
 def debug(cauldron):
-  from PIL import Image
-  #import test 
+	from PIL import Image
 	
-  if cauldron == 23:
-
-	image = Image.open('potion.jpg')
-	image.show()
-	# open method used to open different extension image file 
-	 print("You did it! Great job finding all of the bugs!")
+	if cauldron == 23:
+		image = Image.open('potion.jpg')
+		image.show()
+		# open method used to open different extension image file 
+		print("You did it! Great job finding all of the bugs!")
 	  
   
-  else:
-	  print("This spell still has bugs. Try to find some more!")
+  	else:
+		print("This spell still has bugs. Try to find some more!")
