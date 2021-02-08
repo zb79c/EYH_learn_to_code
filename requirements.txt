@@ -4,5 +4,4 @@
 #
 #    pip-compile
 #
-Pillow==6.2.0
-Image==6.2.0
+PIL==6.2.0
