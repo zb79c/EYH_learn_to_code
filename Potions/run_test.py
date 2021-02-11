@@ -80,7 +80,7 @@ def potion3(fire_slug, flame_pepper, phoenix_tear, dragon_scale):
 
 	if fire_slug == 2 and flame_pepper == 5 and phoenix_tear == 18 and dragon_scale == 15:	
 		print("Fantastic job! You successfully created the Potion of Fire Breathing!")	
-		img = image.imread('potion3.png')	
+		img = image.imread('../im/potion3.png')	
 		imgplot = plt.imshow(img)	
 		plt.axis('off')	
 		plt.show()	
@@ -110,7 +110,7 @@ def debug(cauldron):
 	import matplotlib.image as image	
 
 	if cauldron == 23:	
-		img = image.imread('potion.png')	
+		img = image.imread('../im/potion.png')	
 		imgplot = plt.imshow(img)	
 		plt.axis('off')	
 		plt.show()	
