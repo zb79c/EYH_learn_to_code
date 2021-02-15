@@ -14,25 +14,25 @@ def potion1(eye_of_newt, rabbit_foot, salamander_tongue):
 	else: print('rabbit_foot properly defined')	
 
 	if eye_of_newt == 4 and salamander_tongue == 2 and rabbit_foot ==1:	
-	    print("Fantastic job! You successfully created the Potion of Luck!")
-	    img = image.imread('../im/potion1.png')	
+		print("Fantastic job! You successfully created the Potion of Luck!")
+		img = image.imread('../im/potion1.png')	
 		imgplot = plt.imshow(img)	
 		plt.axis('off')	
 		plt.show()		
 	elif eye_of_newt == 4 and salamander_tongue == 2:	
-	    print("It looks like the eye_of_newt and salamander_tongue are correct. You might need to correct the rabbit_foot")	
+		print("It looks like the eye_of_newt and salamander_tongue are correct. You might need to correct the rabbit_foot")	
 	elif eye_of_newt == 4 and rabbit_foot == 1:	
-	    print("So close! The eye_of_newt and rabbit_foot are correct. Looks like you need to correct the salamander_tongue")	
+		print("So close! The eye_of_newt and rabbit_foot are correct. Looks like you need to correct the salamander_tongue")	
 	elif salamander_tongue ==2 and rabbit_foot == 1:	
-	    print("Almost there! You have the correct amount of salamander_tongue and rabbit_foot. Looks like you need to correct the eye_of_newt")	
+		print("Almost there! You have the correct amount of salamander_tongue and rabbit_foot. Looks like you need to correct the eye_of_newt")	
 	elif eye_of_newt == 4:	
-	    print("You're getting there. I think you'll need to correct the amount of salamander_tongue and rabbit_foot")	
+		print("You're getting there. I think you'll need to correct the amount of salamander_tongue and rabbit_foot")	
 	elif salamander_tongue == 2:	
-	    print("Hm... you have the right amount of salamander_tongue. Looks like you'll need to fix eye_of_newt and rabbit_foot")	
+		print("Hm... you have the right amount of salamander_tongue. Looks like you'll need to fix eye_of_newt and rabbit_foot")	
 	elif rabbit_foot == 1:	
-	    print("You're making progress! The rabbit_foot is right, but you'll need to fix salamander_tongue and eye_of_newt to complete the potion")	
+		print("You're making progress! The rabbit_foot is right, but you'll need to fix salamander_tongue and eye_of_newt to complete the potion")	
 	else:	
-	    print("Ack! A black cat ran across your path and you broke a mirror after drinking the potion. \nYou might have changed eye_of_newt. \nTry changing that back to what it was at the start of the activity and see if that helps!")	
+		print("Ack! A black cat ran across your path and you broke a mirror after drinking the potion. \nYou might have changed eye_of_newt. \nTry changing that back to what it was at the start of the activity and see if that helps!")	
 
 
 def potion2(bat_wing, alligator_tooth, rose_thorn, cat_hair):	
@@ -53,19 +53,19 @@ def potion2(bat_wing, alligator_tooth, rose_thorn, cat_hair):
 	else: print('cat_hair properly defined')	
 
 	if bat_wing == 2 and alligator_tooth == 12 and rose_thorn ==10 and cat_hair ==6:	
-	    print("Fantastic job! You successfully created the Potion of Invisibility!")	
-	    img = image.imread('../im/potion2.png')	
+		print("Fantastic job! You successfully created the Potion of Invisibility!")	
+		img = image.imread('../im/potion2.png')	
 		imgplot = plt.imshow(img)	
 		plt.axis('off')	
 		plt.show()	
 	elif bat_wing == 2 and alligator_tooth == 12 and rose_thorn != 10 and cat_hair !=6:	
-	    print("Hm... it seems like the rose_thorn and cat_hair are off.\nRight now your rose_thorn = ",rose_thorn,"\nAnd cat_hair = ",cat_hair)	
+		print("Hm... it seems like the rose_thorn and cat_hair are off.\nRight now your rose_thorn = ",rose_thorn,"\nAnd cat_hair = ",cat_hair)	
 	elif bat_wing == 2 and alligator_tooth == 12 and rose_thorn == 10 and cat_hair !=6:	
-	    print("So close! I think we need to tweak the cat_hair.\nCurrently cat_hair = ",cat_hair)	
+		print("So close! I think we need to tweak the cat_hair.\nCurrently cat_hair = ",cat_hair)	
 	elif bat_wing == 2 and alligator_tooth == 12 and rose_thorn != 10 and cat_hair ==6:	
-	    print("Almost there! We might need to tweak the amount of rose_thorn.\nCurrently rose_thorn = ",rose_thorn)	
+		print("Almost there! We might need to tweak the amount of rose_thorn.\nCurrently rose_thorn = ",rose_thorn)	
 	else:	
-	    print("Ack! Drinking the potion just turned you blue!\nCould you have changed bat_wing and/or alligator_tooth? Try changing those back and see if that helps!")	
+		print("Ack! Drinking the potion just turned you blue!\nCould you have changed bat_wing and/or alligator_tooth? Try changing those back and see if that helps!")	
 
 def potion3(fire_slug, flame_pepper, phoenix_tear, dragon_scale):	
 	import matplotlib.pyplot as plt	
