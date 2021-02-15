@@ -14,7 +14,11 @@ def potion1(eye_of_newt, rabbit_foot, salamander_tongue):
 	else: print('rabbit_foot properly defined')	
 
 	if eye_of_newt == 4 and salamander_tongue == 2 and rabbit_foot ==1:	
-	    print("Fantastic job! You successfully created the Potion of Luck!")	
+	    print("Fantastic job! You successfully created the Potion of Luck!")
+	    img = image.imread('../im/potion1.png')	
+		imgplot = plt.imshow(img)	
+		plt.axis('off')	
+		plt.show()		
 	elif eye_of_newt == 4 and salamander_tongue == 2:	
 	    print("It looks like the eye_of_newt and salamander_tongue are correct. You might need to correct the rabbit_foot")	
 	elif eye_of_newt == 4 and rabbit_foot == 1:	
@@ -50,6 +54,10 @@ def potion2(bat_wing, alligator_tooth, rose_thorn, cat_hair):
 
 	if bat_wing == 2 and alligator_tooth == 12 and rose_thorn ==10 and cat_hair ==6:	
 	    print("Fantastic job! You successfully created the Potion of Invisibility!")	
+	    img = image.imread('../im/potion2.png')	
+		imgplot = plt.imshow(img)	
+		plt.axis('off')	
+		plt.show()	
 	elif bat_wing == 2 and alligator_tooth == 12 and rose_thorn != 10 and cat_hair !=6:	
 	    print("Hm... it seems like the rose_thorn and cat_hair are off.\nRight now your rose_thorn = ",rose_thorn,"\nAnd cat_hair = ",cat_hair)	
 	elif bat_wing == 2 and alligator_tooth == 12 and rose_thorn == 10 and cat_hair !=6:	
@@ -110,7 +118,7 @@ def debug(cauldron):
 	import matplotlib.image as image	
 
 	if cauldron == 23:	
-		img = image.imread('../im/potion.png')	
+		img = image.imread('../im/potion4.png')	
 		imgplot = plt.imshow(img)	
 		plt.axis('off')	
 		plt.show()	
