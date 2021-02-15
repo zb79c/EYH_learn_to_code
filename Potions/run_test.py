@@ -1,6 +1,8 @@
 # contains unit test functions for each module	
 
 def potion1(eye_of_newt, rabbit_foot, salamander_tongue):	
+	import matplotlib.pyplot as plt	
+	import matplotlib.image as image	
 	try: eye_of_newt	
 	except NameError: print('eye_of_newt not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')	
 	else: print('eye_of_newt properly defined')	
@@ -36,6 +38,8 @@ def potion1(eye_of_newt, rabbit_foot, salamander_tongue):
 
 
 def potion2(bat_wing, alligator_tooth, rose_thorn, cat_hair):	
+	import matplotlib.pyplot as plt	
+	import matplotlib.image as image	
 	try: bat_wing	
 	except NameError: print('bat_wing not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')	
 	else: print('bat_wing properly defined')	
