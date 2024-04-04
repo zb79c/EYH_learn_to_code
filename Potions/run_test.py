@@ -130,3 +130,50 @@ def debug(cauldron):
 		print("You did it! Great job finding all of the bugs!")	
 	else:	
 		print("This spell still has bugs. Try to find some more!")
+
+def potion4(rabbit_foot, cat_hair, dragon_scale, fire_slug, bat_wing):	
+	import matplotlib.pyplot as plt	
+	import matplotlib.image as image	
+	try: rabbit_foot	
+	except NameError: print('rabbit_foot not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')	
+	else: print('rabbit_foot properly defined')	
+
+	try: cat_hair	
+	except NameError: print('cat_hair not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')	
+	else: print('cat_hair properly defined')	
+
+	try: dragon_scale	
+	except NameError: print('dragon_scale not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')	
+	else: print('dragon_scale properly defined')	
+
+	try: fire_slug	
+	except NameError: print('fire_slug not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')	
+	else: print('fire_slug properly defined')	
+    
+	try: bat_wing	
+	except NameError: print('bat_wing not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')	
+	else: print('bat_wing properly defined')	
+
+	if rabbit_foot == 6 and cat_hair == 2 and dragon_scale == 36 and fire_slug == 5 and bat_wing == 19:	
+		print("Fantastic job! You successfully created the Potion of Transformation!")	
+		img = image.imread('../im/potion4-1.png')	
+		imgplot = plt.imshow(img)	
+		plt.axis('off')	
+		plt.show()	
+
+	elif dragon_scale ==36 and fire_slug !=5 and bat_wing == 19:	
+		print("You've made good progress! It looks like fire_slug is not correct. Try again! \n")	
+	elif dragon_scale !=36 and fire_slug ==5 and bat_wing == 19:	
+		print("So close! Try looking bck at the dragon_scale.\n Currently the dragon scale equals ",dragon_scale)	
+	elif dragon_scale ==36 and fire_slug ==5 and bat_wing != 19:	
+		print("Almost there! The problem might be with the bat_wing.\n Currently the bat_wing equals ",bat_wing)	
+              
+	elif dragon_scale !=36 and fire_slug !=5 and bat_wing == 19:	
+		print("Hm... I think we need to correct some things to finish the potion. It looks like the dragon_scale and fire_slug need to be corrected.")	
+	elif dragon_scale !=36 and fire_slug ==5 and bat_wing != 19:	
+		print("Close! The dragon_scale and bat_wing are not correct.")	
+	elif dragon_scale ==36 and fire_slug !=5 and bat_wing != 19:	
+		print("Potion is almost complete! The dragon_scale is correct. Adjust the fire_slug and bat_wing to complete the potion.")	
+              
+	else:	
+		print("Ack! One of my legs turned into a dragon leg and one into a rabbit foot after drinking the potion!\nYou might have changed the rabbit_foot or cat_hair. Try changing it back and see if that helps!")
