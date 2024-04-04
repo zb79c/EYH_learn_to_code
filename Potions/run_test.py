@@ -180,6 +180,8 @@ def potion4(rabbit_foot, cat_hair, dragon_scale, fire_slug, bat_wing):
 
 #-------------Commands for the potion of flight. Do not change-------------
 def potion5(ostrich_egg, penguin_fluff, dodo_brain, kiwi_talon):
+	import matplotlib.pyplot as plt	
+	import matplotlib.image as image
 try: ostrich_egg
 except NameError: print('ostrich_egg not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')
 else: print('ostrich_egg properly defined')
@@ -200,3 +202,17 @@ if ostrich_egg=="one_scrambled" and penguin_fluff == "pinch" and dodo_brain =="o
     print("Fantastic job! You successfully created the Potion of Flight!")
 else:
     print("Oof! I feel so heavy, I need to lay down. Let's double-check at least one of your ingredients!)
+		  
+def potion6 (crate, label_flight, label_invisibility, label_mixed):
+	import matplotlib.pyplot as plt	
+	import matplotlib.image as image
+if crate=="mixed":
+    print("Great job!")
+else:
+    print("Try again - that crate won't help you solve the riddle!")
+
+
+if label_flight=="invisibility" and label_invisibility=="mixed" and label_mixed=="invisibility":
+    print("Awesome work, you solved the riddle!")
+else:
+    print("Double-check everything - I think you made a mistake somewhere!")
