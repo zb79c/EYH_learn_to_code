@@ -177,3 +177,25 @@ def potion4(rabbit_foot, cat_hair, dragon_scale, fire_slug, bat_wing):
               
 	else:	
 		print("Ack! One of my legs turned into a dragon leg and one into a rabbit foot after drinking the potion!\nYou might have changed the rabbit_foot or cat_hair. Try changing it back and see if that helps!")
+
+#-------------Commands for the potion of flight. Do not change-------------
+try: ostrich_egg
+except NameError: print('ostrich_egg not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')
+else: print('ostrich_egg properly defined')
+
+try: penguin_fluff
+except NameError: print('penguin_fluff not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')
+else: print('penguin_fluff properly defined')
+
+try: dodo_brain
+except NameError: print('dodo_brain not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')
+else: print('dodo_brain properly defined')
+
+try: kiwi_talon
+except NameError: print('kiwi_talon not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')
+else: print('kiwi_talon properly defined')
+
+if ostrich_egg=="one_scrambled" and penguin_fluff == "pinch" and dodo_brain =="one_whole" and kiwi_talon=="three_whole":
+    print("Fantastic job! You successfully created the Potion of Flight!")
+else:
+    print("Oof! I feel so heavy, I need to lay down. Let's double-check at least one of your ingredients!)
