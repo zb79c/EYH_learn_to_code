@@ -179,6 +179,7 @@ def potion4(rabbit_foot, cat_hair, dragon_scale, fire_slug, bat_wing):
 		print("Ack! One of my legs turned into a dragon leg and one into a rabbit foot after drinking the potion!\nYou might have changed the rabbit_foot or cat_hair. Try changing it back and see if that helps!")
 
 #-------------Commands for the potion of flight. Do not change-------------
+def potion5(ostrich_egg, penguin_fluff, dodo_brain, kiwi_talon):
 try: ostrich_egg
 except NameError: print('ostrich_egg not properly defined. Make sure the spelling/capitalization are the exact same as in the recipe')
 else: print('ostrich_egg properly defined')
