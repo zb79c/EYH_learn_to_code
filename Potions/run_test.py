@@ -201,7 +201,7 @@ else: print('kiwi_talon properly defined')
 if ostrich_egg=="one_scrambled" and penguin_fluff == "pinch" and dodo_brain =="one_whole" and kiwi_talon=="three_whole":
     print("Fantastic job! You successfully created the Potion of Flight!")
 else:
-    print("Oof! I feel so heavy, I need to lay down. Let's double-check at least one of your ingredients!)
+    print("Oof! I feel so heavy, I need to lay down. Let's double-check at least one of your ingredients!")
 		  
 def potion6 (crate, label_flight, label_invisibility, label_mixed):
 	import matplotlib.pyplot as plt	
