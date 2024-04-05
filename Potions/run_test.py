@@ -208,3 +208,24 @@ def potion5(ostrich_egg, penguin_fluff, dodo_brain, kiwi_talon):
 
 	else:	
 		print("sadness. Something went wrong. Try again?")
+
+# Conundrum
+def conundrum_pt1(crate):	
+	import matplotlib.pyplot as plt	
+	import matplotlib.image as image	
+
+	if crate == "mixed":	
+		print("Great job!")	
+
+	else:	
+		print("That crate isn't the best option, try again!")
+        
+def conundrum_pt2(label_flight, label_invisibility, label_mixed):	
+	import matplotlib.pyplot as plt	
+	import matplotlib.image as image	
+        
+	if label_flight == "invisibility" and label_invisibility == "mixed" and label_mixed == "flight":	
+		print("Awesome work, you solved the riddle!")	
+
+	else:	
+		print("Double-check everything, I think something isn't quite right!")
